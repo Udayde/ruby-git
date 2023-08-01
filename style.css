@@ -1,0 +1,22 @@
+
+body{
+    
+    text-align: center;
+}
+/* .a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.a{
+    margin: 10% 35%;
+}
+.aa{
+    margin: 50px;
+    border-width: 2px ;
+    border-color: black;
+    border-style: solid;
+    width: 200px;
+    padding: 50px;
+    text-align: center;
+}
