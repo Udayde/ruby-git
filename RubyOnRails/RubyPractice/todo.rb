@@ -111,3 +111,8 @@ end
         puts "hello world"
     end
 
+    def m2
+        puts "Hi I am m2"
+    end
+    
+
