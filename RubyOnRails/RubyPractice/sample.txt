@@ -1,0 +1,44 @@
+
+def collect_user_input
+    puts "Enter your name:"
+    name = gets.chomp
+  
+    puts "Enter your contact details:"
+    contact = gets.chomp
+  
+    # Collect other input fields (work experience, education, skills, etc.)
+    # ...
+  
+    resume_data = {
+      name: name,
+      contact: contact,
+      # Other fields...
+    }
+  
+    # return resume_data
+  end
+  
+  def generate_resume_content(data)
+    content = "Resume\n\n"
+    content += "Name: #{data[:name]}\n"
+    content += "Contact: #{data[:contact]}\n"
+    # Format other sections...
+    # ..
+
+  
+    # return content
+  end
+  
+  def write_to_file(content)
+    File.open("resume.txt", "w") do |file|
+      file.write(content)
+    end
+  
+    puts "Resume saved to resume.txt"
+  end
+  
+  # Main program flow
+  user_input = collect_user_input
+  resume_content = generate_resume_content(user_input)
+  write_to_file(resume_content)
+  

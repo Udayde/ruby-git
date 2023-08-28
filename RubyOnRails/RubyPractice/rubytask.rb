@@ -94,7 +94,7 @@
 # puts "The cube root of #{number1} is #{cube_root1}"
 
 # ********Write a program to find minimum and maximum in an array***************
-array =[10,30,20,40,50,80,70,60]
+# array =[10,30,20,40,50,80,70,60]
 # puts array.max
 # puts array.min
 # max_num=0
