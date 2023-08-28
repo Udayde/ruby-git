@@ -114,5 +114,9 @@ end
     def m2
         puts "Hi I am m2"
     end
-    
+
+    def m3 
+        pust "hi"
+    end
+
 
