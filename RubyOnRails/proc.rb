@@ -33,23 +33,22 @@
 # t.update_task(1,"rtyuio")
 # t.show_task
 # ********************************************
-# module A
-# #    module D 
-#         class ASD 
-#             def self.xyz 
-#                 puts "hello"
-#             end
-#         end
-#     # end
-# end
-# A::D::ASD.xyz
-# A::ASD.xyz #scope resolution concept
-# ************************************************
-# h = {aa:{bb: "bhaskar"}}
-# puts h[:aa][:bb]
-# *****************************
-# hsh = {"a" => 1, "b" => 2}
-# hash.symbolize_keys, hash.stringify_keys
-# [1,2,3,4].pick_at_random open classes
-# alias in terminal
-# eval()
+module A
+#    module D 
+        class ASD 
+            def self.xyz 
+                puts "hello"
+            end
+        end
+    # end
+end
+A::D::ASD.xyz
+A::ASD.xyz #scope resolution concept
+************************************************
+h = {aa:{bb: "bhaskar"}}
+puts h[:aa][:bb]
+*****************************
+hsh = {"a" => 1, "b" => 2}
+hash.symbolize_keys, hash.stringify_keys
+[1,2,3,4].pick_at_random open classes
+alias in terminal
